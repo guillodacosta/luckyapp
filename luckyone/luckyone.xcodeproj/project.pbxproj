@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7D46EE423AAD541007C7CB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D46EE323AAD541007C7CB3 /* AppDelegate.swift */; };
+		D7D46EE623AAD541007C7CB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D46EE523AAD541007C7CB3 /* SceneDelegate.swift */; };
+		D7D46EE823AAD541007C7CB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D46EE723AAD541007C7CB3 /* ViewController.swift */; };
+		D7D46EEB23AAD541007C7CB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7D46EE923AAD541007C7CB3 /* Main.storyboard */; };
+		D7D46EEE23AAD541007C7CB3 /* luckyone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7D46EEC23AAD541007C7CB3 /* luckyone.xcdatamodeld */; };
+		D7D46EF023AAD545007C7CB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7D46EEF23AAD545007C7CB3 /* Assets.xcassets */; };
+		D7D46EF323AAD545007C7CB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7D46EF123AAD545007C7CB3 /* LaunchScreen.storyboard */; };
+		D7D46EFE23AAD546007C7CB3 /* luckyoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D46EFD23AAD546007C7CB3 /* luckyoneTests.swift */; };
+		D7D46F0923AAD546007C7CB3 /* luckyoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D46F0823AAD546007C7CB3 /* luckyoneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7D46EFA23AAD546007C7CB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7D46ED823AAD541007C7CB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7D46EDF23AAD541007C7CB3;
+			remoteInfo = luckyone;
+		};
+		D7D46F0523AAD546007C7CB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7D46ED823AAD541007C7CB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7D46EDF23AAD541007C7CB3;
+			remoteInfo = luckyone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7D46EE023AAD541007C7CB3 /* luckyone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = luckyone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7D46EE323AAD541007C7CB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7D46EE523AAD541007C7CB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D7D46EE723AAD541007C7CB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7D46EEA23AAD541007C7CB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7D46EED23AAD541007C7CB3 /* luckyone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = luckyone.xcdatamodel; sourceTree = "<group>"; };
+		D7D46EEF23AAD545007C7CB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7D46EF223AAD545007C7CB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7D46EF423AAD545007C7CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7D46EF923AAD546007C7CB3 /* luckyoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = luckyoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7D46EFD23AAD546007C7CB3 /* luckyoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = luckyoneTests.swift; sourceTree = "<group>"; };
+		D7D46EFF23AAD546007C7CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7D46F0423AAD546007C7CB3 /* luckyoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = luckyoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7D46F0823AAD546007C7CB3 /* luckyoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = luckyoneUITests.swift; sourceTree = "<group>"; };
+		D7D46F0A23AAD546007C7CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7D46EDD23AAD541007C7CB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7D46EF623AAD546007C7CB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7D46F0123AAD546007C7CB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7D46ED723AAD541007C7CB3 = {
+			isa = PBXGroup;
+			children = (
+				D7D46EE223AAD541007C7CB3 /* luckyone */,
+				D7D46EFC23AAD546007C7CB3 /* luckyoneTests */,
+				D7D46F0723AAD546007C7CB3 /* luckyoneUITests */,
+				D7D46EE123AAD541007C7CB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7D46EE123AAD541007C7CB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7D46EE023AAD541007C7CB3 /* luckyone.app */,
+				D7D46EF923AAD546007C7CB3 /* luckyoneTests.xctest */,
+				D7D46F0423AAD546007C7CB3 /* luckyoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7D46EE223AAD541007C7CB3 /* luckyone */ = {
+			isa = PBXGroup;
+			children = (
+				D7D46EE323AAD541007C7CB3 /* AppDelegate.swift */,
+				D7D46EE523AAD541007C7CB3 /* SceneDelegate.swift */,
+				D7D46EE723AAD541007C7CB3 /* ViewController.swift */,
+				D7D46EE923AAD541007C7CB3 /* Main.storyboard */,
+				D7D46EEF23AAD545007C7CB3 /* Assets.xcassets */,
+				D7D46EF123AAD545007C7CB3 /* LaunchScreen.storyboard */,
+				D7D46EF423AAD545007C7CB3 /* Info.plist */,
+				D7D46EEC23AAD541007C7CB3 /* luckyone.xcdatamodeld */,
+			);
+			path = luckyone;
+			sourceTree = "<group>";
+		};
+		D7D46EFC23AAD546007C7CB3 /* luckyoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7D46EFD23AAD546007C7CB3 /* luckyoneTests.swift */,
+				D7D46EFF23AAD546007C7CB3 /* Info.plist */,
+			);
+			path = luckyoneTests;
+			sourceTree = "<group>";
+		};
+		D7D46F0723AAD546007C7CB3 /* luckyoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7D46F0823AAD546007C7CB3 /* luckyoneUITests.swift */,
+				D7D46F0A23AAD546007C7CB3 /* Info.plist */,
+			);
+			path = luckyoneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7D46EDF23AAD541007C7CB3 /* luckyone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7D46F0D23AAD546007C7CB3 /* Build configuration list for PBXNativeTarget "luckyone" */;
+			buildPhases = (
+				D7D46EDC23AAD541007C7CB3 /* Sources */,
+				D7D46EDD23AAD541007C7CB3 /* Frameworks */,
+				D7D46EDE23AAD541007C7CB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = luckyone;
+			productName = luckyone;
+			productReference = D7D46EE023AAD541007C7CB3 /* luckyone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7D46EF823AAD546007C7CB3 /* luckyoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7D46F1023AAD546007C7CB3 /* Build configuration list for PBXNativeTarget "luckyoneTests" */;
+			buildPhases = (
+				D7D46EF523AAD546007C7CB3 /* Sources */,
+				D7D46EF623AAD546007C7CB3 /* Frameworks */,
+				D7D46EF723AAD546007C7CB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7D46EFB23AAD546007C7CB3 /* PBXTargetDependency */,
+			);
+			name = luckyoneTests;
+			productName = luckyoneTests;
+			productReference = D7D46EF923AAD546007C7CB3 /* luckyoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7D46F0323AAD546007C7CB3 /* luckyoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7D46F1323AAD546007C7CB3 /* Build configuration list for PBXNativeTarget "luckyoneUITests" */;
+			buildPhases = (
+				D7D46F0023AAD546007C7CB3 /* Sources */,
+				D7D46F0123AAD546007C7CB3 /* Frameworks */,
+				D7D46F0223AAD546007C7CB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7D46F0623AAD546007C7CB3 /* PBXTargetDependency */,
+			);
+			name = luckyoneUITests;
+			productName = luckyoneUITests;
+			productReference = D7D46F0423AAD546007C7CB3 /* luckyoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7D46ED823AAD541007C7CB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = guillermo;
+				TargetAttributes = {
+					D7D46EDF23AAD541007C7CB3 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					D7D46EF823AAD546007C7CB3 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = D7D46EDF23AAD541007C7CB3;
+					};
+					D7D46F0323AAD546007C7CB3 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = D7D46EDF23AAD541007C7CB3;
+					};
+				};
+			};
+			buildConfigurationList = D7D46EDB23AAD541007C7CB3 /* Build configuration list for PBXProject "luckyone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7D46ED723AAD541007C7CB3;
+			productRefGroup = D7D46EE123AAD541007C7CB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7D46EDF23AAD541007C7CB3 /* luckyone */,
+				D7D46EF823AAD546007C7CB3 /* luckyoneTests */,
+				D7D46F0323AAD546007C7CB3 /* luckyoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7D46EDE23AAD541007C7CB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D46EF323AAD545007C7CB3 /* LaunchScreen.storyboard in Resources */,
+				D7D46EF023AAD545007C7CB3 /* Assets.xcassets in Resources */,
+				D7D46EEB23AAD541007C7CB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7D46EF723AAD546007C7CB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7D46F0223AAD546007C7CB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7D46EDC23AAD541007C7CB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D46EE823AAD541007C7CB3 /* ViewController.swift in Sources */,
+				D7D46EE423AAD541007C7CB3 /* AppDelegate.swift in Sources */,
+				D7D46EE623AAD541007C7CB3 /* SceneDelegate.swift in Sources */,
+				D7D46EEE23AAD541007C7CB3 /* luckyone.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7D46EF523AAD546007C7CB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D46EFE23AAD546007C7CB3 /* luckyoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7D46F0023AAD546007C7CB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D46F0923AAD546007C7CB3 /* luckyoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7D46EFB23AAD546007C7CB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7D46EDF23AAD541007C7CB3 /* luckyone */;
+			targetProxy = D7D46EFA23AAD546007C7CB3 /* PBXContainerItemProxy */;
+		};
+		D7D46F0623AAD546007C7CB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7D46EDF23AAD541007C7CB3 /* luckyone */;
+			targetProxy = D7D46F0523AAD546007C7CB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7D46EE923AAD541007C7CB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7D46EEA23AAD541007C7CB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7D46EF123AAD545007C7CB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7D46EF223AAD545007C7CB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7D46F0B23AAD546007C7CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7D46F0C23AAD546007C7CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7D46F0E23AAD546007C7CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = luckyone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.growth.luckyone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D7D46F0F23AAD546007C7CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = luckyone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.growth.luckyone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D7D46F1123AAD546007C7CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = luckyoneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.growth.luckyoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/luckyone.app/luckyone";
+			};
+			name = Debug;
+		};
+		D7D46F1223AAD546007C7CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = luckyoneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.growth.luckyoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/luckyone.app/luckyone";
+			};
+			name = Release;
+		};
+		D7D46F1423AAD546007C7CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = luckyoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.growth.luckyoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = luckyone;
+			};
+			name = Debug;
+		};
+		D7D46F1523AAD546007C7CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = luckyoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.growth.luckyoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = luckyone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7D46EDB23AAD541007C7CB3 /* Build configuration list for PBXProject "luckyone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7D46F0B23AAD546007C7CB3 /* Debug */,
+				D7D46F0C23AAD546007C7CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7D46F0D23AAD546007C7CB3 /* Build configuration list for PBXNativeTarget "luckyone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7D46F0E23AAD546007C7CB3 /* Debug */,
+				D7D46F0F23AAD546007C7CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7D46F1023AAD546007C7CB3 /* Build configuration list for PBXNativeTarget "luckyoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7D46F1123AAD546007C7CB3 /* Debug */,
+				D7D46F1223AAD546007C7CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7D46F1323AAD546007C7CB3 /* Build configuration list for PBXNativeTarget "luckyoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7D46F1423AAD546007C7CB3 /* Debug */,
+				D7D46F1523AAD546007C7CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D7D46EEC23AAD541007C7CB3 /* luckyone.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D7D46EED23AAD541007C7CB3 /* luckyone.xcdatamodel */,
+			);
+			currentVersion = D7D46EED23AAD541007C7CB3 /* luckyone.xcdatamodel */;
+			path = luckyone.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D7D46ED823AAD541007C7CB3 /* Project object */;
+}
